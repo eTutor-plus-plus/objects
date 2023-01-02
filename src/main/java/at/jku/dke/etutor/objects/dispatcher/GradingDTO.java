@@ -26,6 +26,8 @@ public class GradingDTO {
 
     private ReportDTO report;
 
+    private boolean submissionSuitsSolution;
+
     public GradingDTO() {
     }
 
@@ -73,5 +75,13 @@ public class GradingDTO {
 
     public void setReport(ReportDTO report) {
         this.report = report;
+    }
+
+    public boolean isSubmissionSuitsSolution() {
+        return submissionSuitsSolution;
+    }
+
+    public void setSubmissionSuitsSolution(boolean submissionSuitsSolution) {
+        this.submissionSuitsSolution = submissionSuitsSolution;
     }
 }
