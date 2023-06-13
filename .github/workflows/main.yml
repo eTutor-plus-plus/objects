@@ -9,7 +9,7 @@ on:
       - "main"
 
 jobs:
-  build-objects-build-project-build-docker-push-image:
+  build-project-upload-jar:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -31,7 +31,7 @@ jobs:
         
     - name: Build project with Maven
       working-directory: repo
-      run: mvn -B package -DskipTests
+      run: mvn -B package
     
     - name: Publish jar
       uses: actions/upload-artifact@v3
