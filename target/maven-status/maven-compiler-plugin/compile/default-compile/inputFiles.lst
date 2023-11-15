@@ -1,11 +1,14 @@
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SQLSchemaInfoDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\ReportDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTaskGroupDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogExerciseDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTermDescriptionDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SqlDataDefinitionDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\xq\XMLDefinitionDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SQLExerciseDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\GradingDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\xq\XQExerciseDTO.java
-C:\Users\dke\Documents\etutor-objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\SubmissionDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\ddl\DDLExerciseDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\GradingDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\xq\XMLDefinitionDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\processmining\PmExerciseConfigDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\xq\XQExerciseDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogExerciseDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SqlDataDefinitionDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTaskGroupDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\processmining\PmExerciseLogDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SQLSchemaInfoDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\SubmissionDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\sql\SQLExerciseDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTermDescriptionDTO.java
+C:\Users\simon\OneDrive - Johannes Kepler Universität Linz\Dokumente\Studium\Bachelorarbeit\Umsetzung\objects\src\main\java\at\jku\dke\etutor\objects\dispatcher\ReportDTO.java
