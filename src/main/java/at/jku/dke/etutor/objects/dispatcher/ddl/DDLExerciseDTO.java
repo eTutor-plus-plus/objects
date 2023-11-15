@@ -3,15 +3,17 @@ package at.jku.dke.etutor.objects.dispatcher.ddl;
 public class DDLExerciseDTO {
     private String solution;
     private String insertStatements;
+    private String maxPoints;
     private String tablePoints;
     private String columnPoints;
     private String primaryKeyPoints;
     private String foreignKeyPoints;
     private String constraintPoints;
 
-    public DDLExerciseDTO(String solution, String insertStatements, String tablePoints, String columnPoints, String primaryKeyPoints, String foreignKeyPoints, String constraintPoints) {
+    public DDLExerciseDTO(String solution, String insertStatements, String maxPoints, String tablePoints, String columnPoints, String primaryKeyPoints, String foreignKeyPoints, String constraintPoints) {
         this.solution = solution;
         this.insertStatements = insertStatements;
+        this.maxPoints = maxPoints;
         this.tablePoints = tablePoints;
         this.columnPoints = columnPoints;
         this.primaryKeyPoints = primaryKeyPoints;
@@ -33,6 +35,14 @@ public class DDLExerciseDTO {
 
     public void setInsertStatements(String insertStatements) {
         this.insertStatements = insertStatements;
+    }
+
+    public String getMaxPoints() {
+        return maxPoints;
+    }
+
+    public void setMaxPoints(String maxPoints) {
+        this.maxPoints = maxPoints;
     }
 
     public String getTablePoints() {
