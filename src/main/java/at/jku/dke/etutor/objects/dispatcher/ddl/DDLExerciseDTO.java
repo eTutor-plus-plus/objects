@@ -1,6 +1,7 @@
 package at.jku.dke.etutor.objects.dispatcher.ddl;
 
 public class DDLExerciseDTO {
+    //region Fields
     private String solution;
     private String insertStatements;
     private String maxPoints;
@@ -9,6 +10,12 @@ public class DDLExerciseDTO {
     private String primaryKeyPoints;
     private String foreignKeyPoints;
     private String constraintPoints;
+    //endregion
+
+    // Constructor with no arguments to enable serialization
+    public DDLExerciseDTO() {
+
+    }
 
     public DDLExerciseDTO(String solution, String insertStatements, String maxPoints, String tablePoints, String columnPoints, String primaryKeyPoints, String foreignKeyPoints, String constraintPoints) {
         this.solution = solution;
@@ -21,6 +28,7 @@ public class DDLExerciseDTO {
         this.constraintPoints = constraintPoints;
     }
 
+    //region Getter/Setter
     public String getSolution() {
         return solution;
     }
@@ -84,4 +92,5 @@ public class DDLExerciseDTO {
     public void setConstraintPoints(String constraintPoints) {
         this.constraintPoints = constraintPoints;
     }
+    //endregion
 }
