@@ -8,6 +8,16 @@ public class DroolsTaskDTO {
 
     }
 
+    public DroolsTaskDTO(String solution) {
+        this.solution = solution;
+        this.maxPoints = -1;
+    }
+
+    public DroolsTaskDTO(int maxPoints) {
+        this.solution = null;
+        this.maxPoints = maxPoints;
+    }
+
     public DroolsTaskDTO(String solution, int maxPoints) {
         this.solution = solution;
         this.maxPoints = maxPoints;
