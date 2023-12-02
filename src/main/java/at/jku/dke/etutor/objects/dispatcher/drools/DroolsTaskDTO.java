@@ -1,6 +1,7 @@
 package at.jku.dke.etutor.objects.dispatcher.drools;
 
 public class DroolsTaskDTO {
+    private String id;
     private String solution;
     private String maxPoints;
 
@@ -8,7 +9,8 @@ public class DroolsTaskDTO {
 
     }
 
-    public DroolsTaskDTO(String solution, String maxPoints) {
+    public DroolsTaskDTO(String id, String solution, String maxPoints) {
+        this.id = id;
         this.solution = solution;
         this.maxPoints = maxPoints;
     }
@@ -27,6 +29,14 @@ public class DroolsTaskDTO {
 
     public void setMaxPoints(String maxPoints) {
         this.maxPoints = maxPoints;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
 
