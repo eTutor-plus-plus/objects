@@ -4,9 +4,9 @@ public class DroolsFactDTO {
     private int taskID;
     private String factClazz;
     private String factInstanceName;
-    private String[] factParameters;
+    private String factParameters;
 
-    public DroolsFactDTO(int taskID, String factClazz, String factInstanceName, String[] factParameters) {
+    public DroolsFactDTO(int taskID, String factClazz, String factInstanceName, String factParameters) {
         this.taskID = taskID;
         this.factClazz = factClazz;
         this.factInstanceName = factInstanceName;
@@ -37,11 +37,11 @@ public class DroolsFactDTO {
         this.factInstanceName = factInstanceName;
     }
 
-    public String[] getFactParameters() {
+    public String getFactParameters() {
         return factParameters;
     }
 
-    public void setFactParameters(String[] factParameters) {
+    public void setFactParameters(String factParameters) {
         this.factParameters = factParameters;
     }
 }

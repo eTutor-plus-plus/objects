@@ -4,11 +4,15 @@ at\jku\dke\etutor\objects\dispatcher\dlg\DatalogExerciseDTO.class
 at\jku\dke\etutor\objects\dispatcher\xq\XMLDefinitionDTO.class
 at\jku\dke\etutor\objects\dispatcher\GradingDTO.class
 at\jku\dke\etutor\objects\dispatcher\drools\DroolsTaskDTO.class
+at\jku\dke\etutor\objects\dispatcher\drools\DroolsClassDTO.class
 at\jku\dke\etutor\objects\dispatcher\sql\SQLSchemaInfoDTO.class
+at\jku\dke\etutor\objects\dispatcher\drools\DroolsFactDTO.class
 at\jku\dke\etutor\objects\dispatcher\processmining\PmExerciseConfigDTO.class
 at\jku\dke\etutor\objects\dispatcher\xq\XQExerciseDTO.class
 at\jku\dke\etutor\objects\dispatcher\sql\SQLExerciseDTO.class
+at\jku\dke\etutor\objects\dispatcher\drools\DroolsTestDTO.class
 at\jku\dke\etutor\objects\dispatcher\SubmissionDTO.class
 at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTermDescriptionDTO.class
+at\jku\dke\etutor\objects\dispatcher\drools\DroolsEventDTO.class
 at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTaskGroupDTO.class
 at\jku\dke\etutor\objects\dispatcher\ReportDTO.class
