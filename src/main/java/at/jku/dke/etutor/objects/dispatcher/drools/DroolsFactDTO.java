@@ -6,6 +6,9 @@ public class DroolsFactDTO {
     private String factInstanceName;
     private String factParameters;
 
+    public DroolsFactDTO() {
+    }
+
     public DroolsFactDTO(int taskID, String factClazz, String factInstanceName, String factParameters) {
         this.taskID = taskID;
         this.factClazz = factClazz;

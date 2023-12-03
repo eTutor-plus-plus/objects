@@ -5,6 +5,9 @@ public class DroolsTestDTO {
     private String testInputClassname;
     private String testExpectedOutput;
 
+    public DroolsTestDTO() {
+    }
+
     public DroolsTestDTO(int taskID, String testInputClassname, String testExpectedOutput) {
         this.taskID = taskID;
         this.testInputClassname = testInputClassname;

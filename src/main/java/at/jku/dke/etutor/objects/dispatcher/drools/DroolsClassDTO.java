@@ -5,6 +5,9 @@ public class DroolsClassDTO {
     private String classFullClassname;
     private String classContent;
 
+    public DroolsClassDTO() {
+    }
+
     public DroolsClassDTO(int taskID, String classFullClassname, String classContent) {
         this.taskID = taskID;
         this.classFullClassname = classFullClassname;

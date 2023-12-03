@@ -7,6 +7,9 @@ public class DroolsEventDTO {
     private String eventTimestamp;
     private String eventInstanceName;
 
+    public DroolsEventDTO() {
+    }
+
     public DroolsEventDTO(int taskID, String eventClazz, String eventReferenceName, String eventTimestamp, String eventInstanceName) {
         this.taskID = taskID;
         this.eventClazz = eventClazz;
