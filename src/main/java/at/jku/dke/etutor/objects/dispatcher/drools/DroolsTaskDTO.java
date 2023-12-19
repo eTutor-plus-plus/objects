@@ -3,15 +3,53 @@ package at.jku.dke.etutor.objects.dispatcher.drools;
 public class DroolsTaskDTO {
     private String solution;
     private int maxPoints;
+    private String classes;
+    private String objects;
+    private String diagnoseOutput;
+    private String submissionOutput;
+
 
     public DroolsTaskDTO(){
 
     }
 
-
-    public DroolsTaskDTO(String solution, int maxPoints) {
+    public DroolsTaskDTO(String solution, int maxPoints, String classes, String objects) {
         this.solution = solution;
         this.maxPoints = maxPoints;
+        this.classes = classes;
+        this.objects = objects;
+    }
+
+    public String getClasses() {
+        return classes;
+    }
+
+    public void setClasses(String classes) {
+        this.classes = classes;
+    }
+
+    public String getObjects() {
+        return objects;
+    }
+
+    public void setObjects(String objects) {
+        this.objects = objects;
+    }
+
+    public String getDiagnoseOutput() {
+        return diagnoseOutput;
+    }
+
+    public void setDiagnoseOutput(String diagnoseOutput) {
+        this.diagnoseOutput = diagnoseOutput;
+    }
+
+    public String getSubmissionOutput() {
+        return submissionOutput;
+    }
+
+    public void setSubmissionOutput(String submissionOutput) {
+        this.submissionOutput = submissionOutput;
     }
 
     public String getSolution() {
