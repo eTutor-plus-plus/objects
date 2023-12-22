@@ -3,7 +3,7 @@ package at.jku.dke.etutor.objects.dispatcher.drools;
 public class DroolsTaskDTO {
     private String solution;
     private int maxPoints;
-    private Object[] classes;
+    private String classes;
     private String objects;
     private String diagnoseOutput;
     private String submissionOutput;
@@ -13,18 +13,18 @@ public class DroolsTaskDTO {
 
     }
 
-    public DroolsTaskDTO(String solution, int maxPoints, Object[] classes, String objects) {
+    public DroolsTaskDTO(String solution, int maxPoints, String classes, String objects) {
         this.solution = solution;
         this.maxPoints = maxPoints;
         this.classes = classes;
         this.objects = objects;
     }
 
-    public Object[] getClasses() {
+    public String getClasses() {
         return classes;
     }
 
-    public void setClasses(Object[] classes) {
+    public void setClasses(String classes) {
         this.classes = classes;
     }
 
