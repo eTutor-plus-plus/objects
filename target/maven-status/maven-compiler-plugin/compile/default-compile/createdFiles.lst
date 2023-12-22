@@ -12,6 +12,7 @@ at\jku\dke\etutor\objects\dispatcher\xq\XQExerciseDTO.class
 at\jku\dke\etutor\objects\dispatcher\sql\SQLExerciseDTO.class
 at\jku\dke\etutor\objects\dispatcher\drools\DroolsTestDTO.class
 at\jku\dke\etutor\objects\dispatcher\SubmissionDTO.class
+at\jku\dke\etutor\objects\dispatcher\drools\DroolsObjectDTO.class
 at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTermDescriptionDTO.class
 at\jku\dke\etutor\objects\dispatcher\drools\DroolsEventDTO.class
 at\jku\dke\etutor\objects\dispatcher\dlg\DatalogTaskGroupDTO.class
