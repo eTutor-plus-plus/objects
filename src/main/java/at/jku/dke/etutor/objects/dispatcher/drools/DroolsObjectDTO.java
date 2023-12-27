@@ -1,60 +1,70 @@
 package at.jku.dke.etutor.objects.dispatcher.drools;
 
 public class DroolsObjectDTO {
-    private int taskID;
-    private String eventClazz;
-    private String eventReferenceName;
-    private String eventTimestamp;
-    private String eventInstanceName;
+    private int objectId;
+    private String parameter;
+    private String submissionType;
+    private String fullClassname;
+    private String dataType;
+    private int taskId;
 
     public DroolsObjectDTO() {
     }
 
-    public DroolsObjectDTO(int taskID, String eventClazz, String eventReferenceName, String eventTimestamp, String eventInstanceName) {
-        this.taskID = taskID;
-        this.eventClazz = eventClazz;
-        this.eventReferenceName = eventReferenceName;
-        this.eventTimestamp = eventTimestamp;
-        this.eventInstanceName = eventInstanceName;
+    public DroolsObjectDTO(int objectId, String parameter, String submissionType, String fullClassname, String dataType, int taskId) {
+        this.objectId = objectId;
+        this.parameter = parameter;
+        this.submissionType = submissionType;
+        this.fullClassname = fullClassname;
+        this.dataType = dataType;
+        this.taskId = taskId;
     }
 
-    public int getTaskID() {
-        return taskID;
+    public int getObjectId() {
+        return objectId;
     }
 
-    public void setTaskID(int taskID) {
-        this.taskID = taskID;
+    public void setObjectId(int objectId) {
+        this.objectId = objectId;
     }
 
-    public String getEventClazz() {
-        return eventClazz;
+    public String getParameter() {
+        return parameter;
     }
 
-    public void setEventClazz(String eventClazz) {
-        this.eventClazz = eventClazz;
+    public void setParameter(String parameter) {
+        this.parameter = parameter;
     }
 
-    public String getEventReferenceName() {
-        return eventReferenceName;
+    public String getSubmissionType() {
+        return submissionType;
     }
 
-    public void setEventReferenceName(String eventReferenceName) {
-        this.eventReferenceName = eventReferenceName;
+    public void setSubmissionType(String submissionType) {
+        this.submissionType = submissionType;
     }
 
-    public String getEventTimestamp() {
-        return eventTimestamp;
+    public String getFullClassname() {
+        return fullClassname;
     }
 
-    public void setEventTimestamp(String eventTimestamp) {
-        this.eventTimestamp = eventTimestamp;
+    public void setFullClassname(String fullClassname) {
+        this.fullClassname = fullClassname;
     }
 
-    public String getEventInstanceName() {
-        return eventInstanceName;
+    public String getDataType() {
+        return dataType;
     }
 
-    public void setEventInstanceName(String eventInstanceName) {
-        this.eventInstanceName = eventInstanceName;
+    public void setDataType(String dataType) {
+        this.dataType = dataType;
+    }
+
+    public int getTaskId() {
+        return taskId;
+    }
+
+    public void setTaskId(int taskId) {
+        this.taskId = taskId;
     }
 }
