@@ -5,8 +5,6 @@ public class DroolsTaskDTO {
     private int maxPoints;
     private String classes;
     private String objects;
-    private String diagnoseOutput;
-    private String submissionOutput;
 
 
     public DroolsTaskDTO(){
@@ -36,21 +34,6 @@ public class DroolsTaskDTO {
         this.objects = objects;
     }
 
-    public String getDiagnoseOutput() {
-        return diagnoseOutput;
-    }
-
-    public void setDiagnoseOutput(String diagnoseOutput) {
-        this.diagnoseOutput = diagnoseOutput;
-    }
-
-    public String getSubmissionOutput() {
-        return submissionOutput;
-    }
-
-    public void setSubmissionOutput(String submissionOutput) {
-        this.submissionOutput = submissionOutput;
-    }
 
     public String getSolution() {
         return solution;
