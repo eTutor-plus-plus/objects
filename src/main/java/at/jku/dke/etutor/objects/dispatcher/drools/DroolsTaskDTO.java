@@ -5,17 +5,37 @@ public class DroolsTaskDTO {
     private int maxPoints;
     private String classes;
     private String objects;
+    private int errorWeighting;
+    private String validationClassname;
 
 
     public DroolsTaskDTO(){
 
     }
 
-    public DroolsTaskDTO(String solution, int maxPoints, String classes, String objects) {
+    public DroolsTaskDTO(String solution, int maxPoints, String classes, String objects, int errorWeighting, String validationClassname) {
         this.solution = solution;
         this.maxPoints = maxPoints;
         this.classes = classes;
         this.objects = objects;
+        this.errorWeighting = errorWeighting;
+        this.validationClassname = validationClassname;
+    }
+
+    public String getValidationClassname() {
+        return validationClassname;
+    }
+
+    public void setValidationClassname(String validationClassname) {
+        this.validationClassname = validationClassname;
+    }
+
+    public int getErrorWeighting() {
+        return errorWeighting;
+    }
+
+    public void setErrorWeighting(int errorWeighting) {
+        this.errorWeighting = errorWeighting;
     }
 
     public String getClasses() {
