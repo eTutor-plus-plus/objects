@@ -2,79 +2,181 @@ package at.jku.dke.etutor.objects.dispatcher.nf;
 
 public class NFExerciseDTO {
     /**
-     * NF-specific variable: attributes of base relation
+     * Attributes of base relation
      */
     private String nfBaseAttributes;
 
     /**
-     * NF-specific variable: functional dependencies of base relation
+     * Functional dependencies of base relation
      */
     private String nfBaseDependencies;
 
+    /**
+     * The id of the NF task subtype
+     */
     private String nfTaskSubtypeId;
 
     // Keys determination
 
+    /**
+     * Number of points deducted per missing key in a keys determination task
+     */
     private int nfKeysDeterminationPenaltyPerMissingKey;
 
+    /**
+     * Number of points deducted per incorrect key in a keys determination task
+     */
     private int nfKeysDeterminationPenaltyPerIncorrectKey;
 
     // Attribute closure
 
+    /**
+     * Base attributes for closure in an attribute closure task
+     */
     private String nfAttributeClosureBaseAttributes;
 
+    /**
+     * Number of points deducted per missing attribute an attribute closure task
+     */
     private int nfAttributeClosurePenaltyPerMissingAttribute;
 
+    /**
+     * Number of points deducted per incorrect attribute in an attribute closure task
+     */
     private int nfAttributeClosurePenaltyPerIncorrectAttribute;
 
     // Minimal cover
 
+    /**
+     * Number of points deducted per non-canonical functional dependency in a minimal cover task
+     */
     private int nfMinimalCoverPenaltyPerNonCanonicalDependency;
 
+    /**
+     * Number of points deducted per trivial functional dependency in a minimal cover task
+     */
     private int nfMinimalCoverPenaltyPerTrivialDependency;
 
+    /**
+     * Number of points deducted per extraneous attribute on the left-hand side of a functional
+     * dependency in a minimal cover task
+     */
     private int nfMinimalCoverPenaltyPerExtraneousAttribute;
 
+    /**
+     * Number of points deducted per redundant functional dependency in a minimal cover task
+     */
     private int nfMinimalCoverPenaltyPerRedundantDependency;
 
+    /**
+     * Number of points deducted per missing functional dependency in a minimal cover task
+     * (compared to the correct solution)
+     */
     private int nfMinimalCoverPenaltyPerMissingDependencyVsSolution;
 
+    /**
+     * Number of points deducted per incorrect functional dependency in a minimal cover task
+     * (compared to the correct solution)
+     */
     private int nfMinimalCoverPenaltyPerIncorrectDependencyVsSolution;
 
     // Normal form determination
 
+    /**
+     * Number of points deducted for an incorrect total normal form in a normal form determination
+     * task
+     */
     private int nfNormalFormDeterminationPenaltyForIncorrectOverallNormalform;
 
+    /**
+     * Number of points deducted per incorrectly determined normal form of a functional dependency
+     * in a normal form determination task
+     */
     private int nfNormalFormDeterminationPenaltyPerIncorrectDependencyNormalform;
 
     // Normalization
 
+    /**
+     * The minimum normal form level which the resulting relations must have in a normalization
+     * task
+     */
     private String nfNormalizationTargetLevel;
 
+    /**
+     * The maximum number of functional dependencies that is permitted to be lost in the
+     * decomposition process before points are deducted in a normalization task
+     */
     private int nfNormalizationMaxLostDependencies;
 
+    /**
+     * Points deducted for every attribute of the base relation that is not present in any of the
+     * resulting relations in a normalization task
+     */
     private int nfNormalizationPenaltyPerLostAttribute;
 
+    /**
+     * Points deducted if the resulting relations cannot be re-combined into the base relation in
+     * a normalization task
+     */
     private int nfNormalizationPenaltyForLossyDecomposition;
 
+    /**
+     * Points deducted for every non-canonical functional dependency in a resulting relation in
+     * a normalization task
+     */
     private int nfNormalizationPenaltyPerNonCanonicalDependency;
 
+    /**
+     * Points deducted for every trivial functional dependency in a resulting relation in
+     * a normalization task
+     */
     private int nfNormalizationPenaltyPerTrivialDependency;
 
+    /**
+     * Points deducted for every extraneous attribute on the left-hand side of a functional
+     * dependency in a resulting relation in a normalization task
+     */
     private int nfNormalizationPenaltyPerExtraneousAttributeInDependencies;
 
+    /**
+     * Points deducted for every redundant functional dependency in a resulting relation in
+     * a normalization task
+     */
     private int nfNormalizationPenaltyPerRedundantDependency;
 
+    /**
+     * Points deducted for every functional dependency that was lost during the decomposition
+     * process and exceeds the maximum permitted number of lost functional dependencies in a normalization task
+     */
     private int nfNormalizationPenaltyPerExcessiveLostDependency;
 
+    /**
+     * Points deducted for every functional dependency that would have to exist in a resulting
+     * relation due to the decomposition process but does not in a normalization task
+     */
     private int nfNormalizationPenaltyPerMissingNewDependency;
 
+    /**
+     * Points deducted for every functional dependency that exists in a resulting relation, even
+     * though it is not supposed to (due to the decomposition process, more specifically the RBR algorithm) in a
+     * normalization task
+     */
     private int nfNormalizationPenaltyPerIncorrectNewDependency;
 
+    /**
+     * Points deducted for every missing key in a resulting relation in a normalization task
+     */
     private int nfNormalizationPenaltyPerMissingKey;
 
+    /**
+     * Points deducted for every incorrect key in a resulting relation in a normalization task
+     */
     private int nfNormalizationPenaltyPerIncorrectKey;
 
+    /**
+     * Points deducted for every resulting relation that does not match or exceed the required
+     * normal form in a normalization task
+     */
     private int nfNormalizationPenaltyPerIncorrectNFRelation;
 
     public String getNfBaseAttributes() {
